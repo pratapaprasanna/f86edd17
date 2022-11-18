@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search",
-    "slug": "search",
+    "name": "Search2",
+    "slug": "search2",
     "layouts": [
       {
         "viewMode": false,
@@ -1357,6 +1357,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Search2_getAllCustomers",
               "name": "getAllCustomers",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1366,6 +1367,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search2_getAllOrders",
               "name": "getAllOrders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1378,7 +1380,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search",
+        "id": "Search2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -1389,5 +1391,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "63779892143a435c34dd47aa_637798a6143a435c34dd47b3"
+  "gitSyncId": "637798b3143a435c34dd47ed_637798c0143a435c34dd482b"
 }
