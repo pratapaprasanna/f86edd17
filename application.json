@@ -1,6 +1,18 @@
 {
   "pages": [
     {
+      "id": "Search",
+      "isDefault": false
+    },
+    {
+      "id": "Selected",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     }
@@ -8,8 +20,14 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#FFDEDE",
-  "icon": "shirt",
+  "color": "#ECECEC",
+  "icon": "pizza",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
